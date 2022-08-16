@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       
+    <title>Sign Up</title>
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <br>
+    <div class="SignUp">
+     <form id="SignUp" method="Post" onsubmit="return handle_form_submission()" action="Index.html">
+            <label><b>First Name     
+            </b>    
+            </label>    
+            <input type="text" name="Fname" id="Fname" required placeholder="First Name">
+            <label><b>Last Name     
+            </b>    
+            </label>    
+            <input type="text" name="Lname" id="Lname" required="name" placeholder="Last Name">
+            <label><b>Mobile     
+            </b>    
+            </label>
+            <input type="text" name="Mobile" id="Mobile" pattern="[789][0-9]{9}" required placeholder="+91 9876543210">
+            
+            <label><b>User Name 
+            </label>
+            </b>
+            <input type="email" name="Uname" id="Uname" required placeholder="Username">    
+            <br><br>  
+                  
+            <label><b>Password     
+            </b>    
+            </label>    
+            <input type="Password" name="Pass" id="Pass" required placeholder="Password">    
+            <br><br>       
+            <input type="submit" name="SignUp" id="SignUp" value="Sign Up">       
+            <br><br>
+           
+           <a href="Index.html">Log In</a>   
+            
+        </form> 
+    </div>
+</body>
+</html>
